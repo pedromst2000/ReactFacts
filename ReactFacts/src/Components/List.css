@@ -1,0 +1,16 @@
+li {
+  color: #fff;
+  font-style: normal;
+  font-weight: 100;
+}
+
+
+li::marker {
+  color: #61dafb;
+  font-size: 2em;
+}
+
+ul{
+  margin-left: 3em;
+}
+
