@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css"; // bootstrap
 
 function Header() {
   return (
-    <header className="d-flex justify-content-between align-items-center p-4">
+    <header className="d-flex justify-content-between align-items-center p-4 gap-5">
       <div className="logo d-flex align-items-center">
         <img src={ReactLogo} alt="React-Logo" />
         <h1 className="name-logo">ReactFacts</h1>

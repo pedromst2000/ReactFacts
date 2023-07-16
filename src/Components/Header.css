@@ -1,6 +1,8 @@
 header {
   background-color: #21222a;
   height: 91px;
+  position: fixed;
+  width: 100%;
 }
 
 .logo h1 {
@@ -27,4 +29,35 @@ header {
   width: 40px;
   height: 40px;
   margin-right: 10px;
+}
+
+/* media queries for small devices */
+@media only screen and (max-width: 400px) {
+  /* remove the info header */
+  .info-header {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4.7em;
+    gap:0.4em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  /* remove the info header */
+  .info-header {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.1em;
+    gap:0.1em;
+  }
 }
