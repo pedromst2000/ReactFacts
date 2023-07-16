@@ -8,12 +8,14 @@ const tags = [
 
 function List() {
   return (
-    <ul>
+    <ul className="ul-center">
       {tags.map((tag) => (
-        <li key={tag.id}>{tag.content}</li>
+        <li key={tag.id}>
+          <span>{tag.content}</span>
+        </li>
       ))}
     </ul>
-    )
+  );
 }
 
 export default List
