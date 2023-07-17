@@ -40,8 +40,8 @@ header {
   }
 
   .logo{
-    padding-left: 2.7em;
-    
+    padding-right: 1em;
+    padding-left: 4.65em;
   }
 }
 
@@ -52,8 +52,8 @@ header {
   }
 
   .logo{
-    padding-right: 1em;
-    padding-left: 4.65em;
+    padding-left: 2.7em;
+    
   }
 }
 
