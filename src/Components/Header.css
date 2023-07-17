@@ -33,6 +33,18 @@ header {
 
 
 
+@media (min-width: 100px) and (max-width: 320px) {
+  /* remove the info header */
+  .info-header {
+    display: none;
+  }
+
+  .logo{
+    padding-left: 2.7em;
+    
+  }
+}
+
 @media (min-width: 200px) and (max-width: 320px) {
   /* remove the info header */
   .info-header {
