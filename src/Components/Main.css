@@ -24,13 +24,9 @@ li{
 
 li span{
   display: inline-table;
-  vertical-align: text-bottom;
-}
-
-li span{
-  display: inline-table;
   vertical-align: baseline;
 }
+
 
 @media (min-width:320px) and (max-width:321px) {
     
