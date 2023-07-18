@@ -79,3 +79,13 @@ header {
   }
 
 }
+
+@media (max-width: 149px){
+  .info-header {
+    display: none;
+  }
+
+  .logo{
+    padding-left: 2.5em;
+  }
+}
