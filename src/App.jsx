@@ -6,14 +6,12 @@ import "./Components/Header.css";
 import "./Components/Main.css";
 
 function App() {
-
   return (
     <div className="app">
-        <Header/>
-        <Main/>
+      <Header nameLogo="ReactFacts" infoHeader="React Course - Project 1" />
+      <Main />
     </div>
   );
-
 }
 
 export default App;
